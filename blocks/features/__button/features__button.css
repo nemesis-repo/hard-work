@@ -1,0 +1,10 @@
+.features__button {
+  width: 113px;
+  height: 43px;
+  background: #FFD7D7;
+  border-radius: 2px;
+}
+
+.features__button:last-of-type {
+  background: #D2E1FF;
+}
