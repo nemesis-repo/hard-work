@@ -1,1 +1,4 @@
-@import url(../blocks/page/page.css);
+@import url('../fonts/opensans/opensans.css');
+@import url('../fonts/quicksand/quicksand.css');
+@import url('../fonts/roboto/roboto.css');
+@import url('../blocks/page/page.css');
