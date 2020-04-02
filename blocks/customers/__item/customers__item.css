@@ -1,0 +1,10 @@
+.customers__item {
+  width: 116px;
+  height: 29px;
+  object-fit: cover;
+  margin: 58px 76px 58px 0;
+}
+
+.customers__item:last-of-type {
+  margin: 58px 0;
+}
