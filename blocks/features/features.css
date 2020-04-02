@@ -8,6 +8,7 @@
 @import url('./__buttons/features__buttons.css');
 @import url('./__button/features__button.css');
 @import url('./__button-link/features__button-link.css');
+@import url('./__sepparate/features__sepparate.css');
 
 .features {
   width: 100%;
