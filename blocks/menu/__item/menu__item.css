@@ -1,0 +1,8 @@
+.menu__item {
+  margin: auto 42px auto 0;
+  list-style: none;
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}

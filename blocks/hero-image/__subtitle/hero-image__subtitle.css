@@ -1,0 +1,13 @@
+.hero-image__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #8D96BD;
+  width: 40%;
+  margin: 20px auto 0 auto;
+  z-index: 1;
+}
