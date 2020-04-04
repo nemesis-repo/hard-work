@@ -1,0 +1,12 @@
+.menu__link {
+  text-decoration: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #5E81FE;
+  text-shadow: 0px 0px 5px #E6E6E6;
+}

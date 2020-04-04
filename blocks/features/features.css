@@ -1,0 +1,16 @@
+@import url('./__content/features__content.css');
+@import url('./__subtitle/features__subtitle.css');
+@import url('./__title/features__title.css');
+@import url('./__list/features__list.css');
+@import url('./__item/features__item.css');
+@import url('./__item-title/features__item-title.css');
+@import url('./__text/features__text.css');
+@import url('./__buttons/features__buttons.css');
+@import url('./__button/features__button.css');
+@import url('./__button-link/features__button-link.css');
+@import url('./__sepparate/features__sepparate.css');
+
+.features {
+  width: 100%;
+  border-top: 1px solid #D8E3FE;
+}

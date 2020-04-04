@@ -5,23 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./style.css">
   <title>Productivity</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-
+      <div class="header__content">
+        <nav class="menu">
+          <img class="logo" src="./images/logo/logo.svg" alt="Логотип проекта">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Features</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Pricing</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Documentation</a></li>
+          </ul>
+        </nav>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__social-icon"><a href="#"><img src="./images/social-media/f.svg" alt="Фейсбук"></a></li>
+            <li class="menu__social-icon"><a href="#"><img src="./images/social-media/Telegram_logo.svg" alt="Телеграм"></a></li>
+            <li class="menu__social-icon"><a href="#"><img src="./images/social-media/Twitter.svg" alt="Твиттер"></a></li>
+            <li class="menu__social-icon"><a href="#"><img src="./images/social-media/path14.svg" alt="Социальная сеть"></a></li>
+          </ul>
+          <button class="button">
+            <p class="button__text">Get started!</p>
+          </button>
+        </nav>
+      </div>
     </header>
+
     <main class="content">
       <section class="hero-image">
-
+        <p class="hero-image__overline">Plan your life</p>
+        <h1 class="hero-image__title">Increase your <span class="hero-image__title-bold">productivity</span></h1>
+        <p class="hero-image__subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+          Usu atqui laudem an, insolens gubergren similique est cu.
+          Et vel modus congue vituperata.</p>
+        <img class="play-button" src="./images/play-button/play_button.svg" alt="Кнопка включить выключить">
+        <img class="hero-image__chart" src="./images/hero-image/hero_image_background.svg" alt="График">
       </section>
       <section class="customers">
-
+        <ul class="customers__list">
+          <li class="customers__item"><img class="customers__logo" src="images/bitbucket.png" alt="bitbucket"></li>
+          <li class="customers__item"><img class="customers__logo" src="images/apple-watch.png" alt="apple watch"></li>
+          <li class="customers__item"><img class="customers__logo" src="images/facebook.png" alt="facebook"></li>
+          <li class="customers__item"><img class="customers__logo" src="images/atlassian.png" alt="atlassian"></li>
+          <li class="customers__item"><img class="customers__logo" src="images/audi.png" alt="audi"></li>
+        </ul>
       </section>
       <section class="features">
-
+        <div class="features__content">
+          <p class="features__subtitle">about us</p>
+          <h2 class="features__title">Read about our app</h2>
+          <ul class="features__list">
+            <li class="features__item">
+              <img class="features__icon" src="images/overview.png" alt="overview">
+              <h3 class="features__item-title">Overview</h3>
+              <p class="features__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__icon" src="images/files.png" alt="files">
+              <h3 class="features__item-title">Files</h3>
+              <p class="features__text">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__icon" src="images/meeting.png" alt="meeting">
+              <h3 class="features__item-title">Meeting chats</h3>
+              <p class="features__text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+            </li>
+            <li class="features__item">
+              <img class="features__icon" src="images/save.png" alt="save">
+              <h3 class="features__item-title">Save events</h3>
+              <p class="features__text">Nisl idque mel ea, nominati voluptatum.</p>
+            </li>
+          </ul>
+          <ul class="features__buttons">
+            <li class="features__button"><a href="#" class="features__button-link">Read more</a></li>
+            <li class="features__sepparate">or</li>
+            <li class="features__button"><a href="#" class="features__button-link">Get started</a></li>
+          </ul>
+        </div>
       </section>
       <section class="stats">
         <div class="stats__item stats__item_position_left">
@@ -38,9 +102,9 @@
     </main>
     <footer class="footer">
       <div class="footer__content">
-        <img class="logo" alt="Синий круг">
-        <nav class="menu__list">
-          <ul class="menu__links">
+        <nav class="menu">
+          <img class="logo" src="./images/logo/logo.svg" alt="Логотип проекта">
+          <ul class="menu__list">
             <li class="menu__item"><a class="menu__link">Home</a></li>
             <li class="menu__item"><a class="menu__link">Blog</a></li>
             <li class="menu__item"><a class="menu__link">Features</a></li>
@@ -54,7 +118,9 @@
             <li class="menu__social-icon"><a href="#"><img src="./images/social-media/Telegram_logo.svg" alt="Телеграм"></a></li>
             <li class="menu__social-icon"><a href="#"><img src="./images/social-media/Twitter.svg" alt="Твиттер"></a></li>
             <li class="menu__social-icon"><a href="#"><img src="./images/social-media/path14.svg" alt="Социальная сеть"></a></li>
-            <button class="button"><p class="button__text">Get started!</p></button>
+            <button class="button">
+              <p class="button__text">Get started!</p>
+            </button>
             </ul>
         </nav>
       </div>
