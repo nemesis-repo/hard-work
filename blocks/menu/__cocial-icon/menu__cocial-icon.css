@@ -1,0 +1,7 @@
+.menu__cocial-icon {
+  margin: auto 32px auto 0;
+}
+
+.menu__cocial-icon:last-of-type {
+  margin-right: 0;
+}
