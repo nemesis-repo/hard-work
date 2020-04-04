@@ -1,0 +1,15 @@
+.features__button {
+  position: relative;
+  width: 113px;
+  height: 43px;
+  background: #FFD7D7;
+  border-radius: 2px;
+}
+
+.features__button:last-of-type {
+  background: #D2E1FF;
+}
+
+.features__button:last-of-type .features__button-link {
+  color: #3A79FF;
+}

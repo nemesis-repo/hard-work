@@ -1,0 +1,13 @@
+.features__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1270px;
+  height: 555px;
+  margin: 141px auto 98px;
+  padding: 0;
+  background-image: url('../../../images/clouds.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
