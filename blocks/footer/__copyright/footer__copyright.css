@@ -1,0 +1,11 @@
+.footer__copyright {
+    margin-left: 16%;
+    font-family: Quicksand, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #AEB8D0;
+  }

@@ -1,0 +1,5 @@
+.stats__item_position_right {
+    flex-direction: column;
+    background: linear-gradient(130.53deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    padding-left: 90px;
+}

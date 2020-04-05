@@ -1,0 +1,18 @@
+@import url('./__text/button__text.css');
+
+.button {
+  width: 113px;
+  height: 43px;
+  background: #D2E1FF;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  margin-left: 44px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}

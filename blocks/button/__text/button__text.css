@@ -1,0 +1,10 @@
+.button__text {
+  margin: auto;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #3A79FF;
+}
