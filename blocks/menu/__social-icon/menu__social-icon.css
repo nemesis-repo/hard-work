@@ -1,0 +1,7 @@
+.menu__social-icon {
+  margin: auto 32px auto 0;
+}
+
+.menu__social-icon:last-of-type {
+  margin-right: 0;
+}

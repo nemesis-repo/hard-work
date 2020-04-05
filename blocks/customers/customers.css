@@ -1,0 +1,7 @@
+@import url('./__list/customers__list.css');
+@import url('./__item/customers__item.css');
+
+.customers {
+  border-top: 1px solid #D8E3FE;
+  width: 100%;
+}

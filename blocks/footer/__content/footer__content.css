@@ -1,0 +1,8 @@
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 81.25%;
+}

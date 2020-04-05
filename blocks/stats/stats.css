@@ -1,0 +1,13 @@
+@import url(./__description/stats__description.css);
+@import url(./__description/stats__description_blue.css);
+@import url(./__item/stats__item.css);
+@import url(./__item/_position/stats__item_position_left.css);
+@import url(./__item/_position/stats__item_position_right.css);
+@import url(./__logo/stats__logo.css);
+@import url(./__number/stats__number.css);
+@import url(./__number/stats__number_blue.css);
+
+.stats {
+    width: 100%;
+    display: flex;
+}
