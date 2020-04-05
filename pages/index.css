@@ -12,4 +12,5 @@
 @import url('../blocks/customers/customers.css');
 @import url('../blocks/features/features.css');
 @import url('../blocks/stats/stats.css');
-@import url("../blocks/footer/footer.css");
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/opacity/opacity.css');
