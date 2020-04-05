@@ -10,3 +10,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 1210px) {
+  .features__content {
+    width: 100%;
+  }
+}
